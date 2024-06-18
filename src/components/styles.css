@@ -1,0 +1,126 @@
+/* src/components/styles.css */
+
+/* General Styles */
+.container-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    background: #fff;
+  }
+  
+  .pokemon-name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .pokemon-number {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .container-card-img img {
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  .type-item {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #eee;
+  }
+  
+  .container-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .info-item {
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .section-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .container-bar {
+    width: 100%;
+  }
+  
+  .bar-item {
+    margin-bottom: 20px;
+  }
+  
+  .bar {
+    position: relative;
+    height: 20px;
+    background: #eee;
+  }
+  
+  .bar-active {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #ff6347;
+  }
+  
+  .container-label {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .value {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .label {
+    font-size: 14px;
+  }
+  
+  /* Evolution Styles */
+  .container-evolution {
+    margin-top: 20px;
+  }
+  
+  .evolution-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .evolution-img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .container-arrow {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+  }
+  
+  /* Overview Styles */
+  .overview {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .container-versions {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .container-versions button {
+    background: none;
+    border: none;
+  }
+  
+  .version-active {
+    border: 2px solid #ff6347;
+    border-radius: 50%;
+  }
+  
